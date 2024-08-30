@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+    @apply px-2;
+}
+.clr-1{
+    background-color: #363b4e;
+}
+.clr-3{
+    background-color:#a070a1;
+}
+.clr-2{
+    /* background-image: linear-gradient(to bottom right,#2b2b77,rgb(100, 197, 239)); */
+    background-color: #774181;
+}
+.clr-4{
+    background-color: #f8e7e7;
+}
+.mobile-nav{
+    @apply fixed top-10 left-0 w-full h-1/4
+}
+.mobile-nav li{
+    @apply w-full h-full text-center border-b-2 border-clr-1;
+}
+.btn{
+    @apply bg-slate-400 px-2 py-1 font-bold hover:border-2 border-line-clr-1 rounded
+}
+html{
+    scroll-behavior: smooth;
+}
